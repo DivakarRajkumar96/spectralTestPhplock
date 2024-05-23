@@ -1,0 +1,173 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "abcd1234efgh5678ijkl91011mnop1213qrst1415uvwx1617yz18",
+    "packages": [
+        {
+            "name": "symfony/symfony",
+            "version": "v3.4.47",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/symfony.git",
+                "reference": "c56a5392a537dd64e9534fa9d32475c8b50c0fb8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/c56a5392a537dd64e9534fa9d32475c8b50c0fb8",
+                "reference": "c56a5392a537dd64e9534fa9d32475c8b50c0fb8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "psr/log": "~1.0",
+                "symfony/polyfill-apcu": "~1.0",
+                "symfony/polyfill-php54": "~1.0",
+                "symfony/polyfill-php55": "~1.0",
+                "symfony/polyfill-php56": "~1.0",
+                "symfony/polyfill-util": "~1.0"
+            },
+            "require-dev": {
+                "symfony/browser-kit": "~3.4",
+                "symfony/class-loader": "~3.4",
+                "symfony/css-selector": "~3.4",
+                "symfony/debug-bundle": "~3.4",
+                "symfony/expression-language": "~3.4",
+                "symfony/phpunit-bridge": "~3.4"
+            }
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.42.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "cbe81d99fdac6c6655372b7bcecf1e84df73cddc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/cbe81d99fdac6c6655372b7bcecf1e84df73cddc",
+                "reference": "cbe81d99fdac6c6655372b7bcecf1e84df73cddc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            }
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.25.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "5c858fe4c102b28a967ef06ad6d0531f95e24927"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5c858fe4c102b28a967ef06ad6d0531f95e24927",
+                "reference": "5c858fe4c102b28a967ef06ad6d0531f95e24927",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+                "doctrine/couchdb": "~1.0",
+                "graylog2/gelf-php": "~1.0",
+                "php-amqplib/php-amqplib": "~2.4",
+                "php-console/php-console": "^3.1.3",
+                "phpunit/phpunit": "^4.8 || ^5.0"
+            }
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "6.5.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "dcac36d7f204f6df458d321d01b8359805e64f15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/dcac36d7f204f6df458d321d01b8359805e64f15",
+                "reference": "dcac36d7f204f6df458d321d01b8359805e64f15",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "guzzlehttp/promises": "^1.0",
+                "guzzlehttp/psr7": "^1.4"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "ext-mbstring": "*"
+            }
+        },
+        {
+            "name": "phpunit/phpunit",
+            "version": "6.5.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "5f1ab86ff2ffb24a01099db3831e0e5b6d79aa53"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/5f1ab86ff2ffb24a01099db3831e0e5b6d79aa53",
+                "reference": "5f1ab86ff2ffb24a01099db3831e0e5b6d79aa53",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-mbstring": "*",
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
+                "myclabs/deep-copy": "^1.7",
+                "phar-io/manifest": "^1.0.1",
+                "phar-io/version": "^2.0.1",
+                "phpdocumentor/reflection-common": "^1.0.1",
+                "phpdocumentor/reflection-docblock": "^4.3.0",
+                "phpdocumentor/type-resolver": "^0.4.0",
+                "phpspec/prophecy": "^1.7.6",
+                "phpunit/php-code-coverage": "^5.3.2",
+                "phpunit/php-file-iterator": "^1.4.5",
+                "phpunit/php-text-template": "^1.2.1",
+                "phpunit/php-timer": "^1.0.9",
+                "phpunit/php-token-stream": "^2.0.2",
+                "sebastian/comparator": "^2.1.3",
+                "sebastian/diff": "^2.0.1",
+                "sebastian/environment": "^3.1.0",
+                "sebastian/exporter": "^3.1.0",
+                "sebastian/global-state": "^2.0.0",
+                "sebastian/object-enumerator": "^3.0.3",
+                "sebastian/object-reflector": "^1.1.1",
+                "sebastian/recursion-context": "^3.0.0",
+                "symfony/polyfill-ctype": "^1.8",
+                "theseer/tokenizer": "^1.1.0"
+            },
+            "require-dev": {
+                "ext-xdebug": "*"
+            }
+        },
+        {
+            "name": "doctrine/orm",
+            "version": "v2.6.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/orm.git",
+                "reference": "6abf5c01bc13f5c67de138c32d2042e1d18d5ec4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/6abf5c01bc13f5c67de138c32d2042e1d18d5ec4",
+                "reference": "
